@@ -1,0 +1,241 @@
+body{
+background-color:#BDBDBD;
+color:white;
+background-image: url("img1.png");
+}
+
+
+a {
+	font-weight:bold; 
+	text-decoration:none;
+}
+
+.editAndDeleteProject{
+	font-family: FontAwesome;
+	display:inline-block;
+	text-decoration: none;
+	color:white;
+}
+.editAndDeleteProject:hover{
+	color:red;
+}
+
+#tabelAdd td{
+
+	padding:4px;
+}
+.redBackgroundOnHover:hover{
+	background-color:red;
+	color:white;
+	}
+.redBorderOnHover:hover{
+	border:2px solid red;
+	border-radius:20px;
+}
+
+.redBorderOnFocus:focus{
+	border:2px solid red;
+	border-radius:20px;
+}
+
+.mainBodyContainer{
+	padding:15px;
+	border-radius:15px;
+	width:95%;
+	margin:0 auto;
+	min-height: 500px;
+	background-color:gray;
+	display: table;
+}
+
+.formTaskInput{
+	padding:3px;
+	font-size:large;
+	text-align:center;
+	border: 1px solid white;
+    border-radius: 10px;
+	width:80%;
+}
+.submitProject{
+	font-family: FontAwesome;
+	font-style:normal;
+	font-size:x-large;
+	background:unset;
+	border:0;
+	color:white;
+}
+.submitProject:hover{
+	color:red;
+}
+.addNewProjectInput{
+    background: unset;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 2.5em;
+    width:100%;
+}
+.addNewProjectInput:focus{
+	background: white;
+}
+
+.editProjectInput{
+    background: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 2em;
+    width:90%;
+    font-size: large;
+    font-family: FontAwesome;
+    font-weight: bold;
+}
+.editProjectInput:focus{
+	background: white;
+}
+
+.projectFirstRow{
+	width:100%;
+	background-color:#202020;
+  	border-radius: 15px;
+  	border: 2px solid #202020;
+  	margin-bottom:5px;
+	
+}
+.projectRows{
+	display:inline-block;
+	margin-left:20px;
+	margin-top:2px;
+	width:15%;
+	background-color:#212121;
+  	border-radius: 15px;
+  	border: 2px solid #202020;
+}
+.projectRows h3{
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+}
+.arrow{
+font-size:30px;
+font-weight:bold; 
+text-decoration:none;
+color:white;
+}
+.arrow:hover{
+	color:red;
+}
+.editAndDelete{
+	font-family: FontAwesome;
+color:white;
+}
+#editSymbol:hover{
+	color:red;
+}
+
+#deleteSymbol:hover{
+	color:red;
+}
+.deleteSymbol2:hover:after{
+	content:'Delete';
+	color:blue;
+}
+.the4elements{
+	width: 24%; 
+	padding:5px;
+	background-color:#202020; 
+	display: table-cell; 
+	margin-top:10px; 
+	border: 1px solid black;
+	border-radius:10px;
+	vertical-align:top; 
+	overflow: visible;
+	color: white;
+}
+
+.tdContent{
+	width:100%;
+}
+
+tr.taskRow:hover{
+	background-color:#111;
+}
+
+
+
+/* MENIU  */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border-radius:5px;
+  margin-top:5px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.footerIcon{
+	font-size: 40px; 
+	text-decoration:none; 
+	color: white;
+	margin-right:5px;
+}
+
+.footerIcon:hover{
+	color:red;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #111;
+  color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
